@@ -1,19 +1,49 @@
 {
-  "name": "McPants/jquery.shapeshift",
-  "version": "1.0.0",
-  "main": "path/to/main.css",
-  "description": "please add it",
-  "license": "Eclipse",
-  "ignore": [
-    ".jshintrc",
-    "**/*.txt"
-  ],
-  "dependencies": {
-    "<dependency_name>": "<semantic_version>",
-    "<dependency_name>": "<Local_folder>",
-    "<dependency_name>": "<package>"
+  "name": "Shapeshift",
+  "title": "jQuery Shapeshift",
+  "description": "jQuery plugin which can arrange a collection of elements into a grid while also providing drag and drop functionality.",
+  "main": "core/jquery.shapeshift.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/resultscom/jquery.shapeshift.git"
   },
-  "devDependencies": {
-    "<test-framework-name>": "<version>"
+  "keywords": [
+    "grid",
+    "drag",
+    "drop",
+    "arrange",
+    "organize",
+    "animation"
+  ],
+  "version": "2.0.0",
+  "author": {
+    "name": "Scott Elwood",
+    "url": "http://scottelwood.com"
+  },
+  "maintainers": [
+    {
+      "name": "We the Media, inc.",
+      "email": "dev@wtmworldwide.com",
+      "url": "http://wtmworldwide.com"
+    },
+    {
+      "name": "Scott Elwood",
+      "email": "scott@wtmworldwide.com",
+      "url": "http://scottelwood.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/resultscom/jquery.shapeshift/blob/master/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/resultscom/jquery.shapeshift/issues",
+  "homepage": "https://github.com/resultscom/jquery.shapeshift",
+  "docs": "https://github.com/resultscom/jquery.shapeshift",
+  "download": "https://github.com/resultscom/jquery.shapeshift",
+  "dependencies": {
+    "jquery": ">=1.9.0",
+    "jquery-ui": ">=1.10.0"
   }
 }
